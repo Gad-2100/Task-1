@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoBild</title>
+  <link href="bootstrab.css" rel="stylesheet" />
+  <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="filter">
+
+    <header id="MainHeader">
+      <h2>COBUILD</h2>
+      <ul>
+        <li>HOME</li>
+        <li>SERVICES</li>
+        <li>WORK</li>
+        <li>SKILLS</li>
+        <li>TESTIMONIALS</li>
+        <li>MAP</li>
+      </ul>
+    </header>
+
+    <section id="MainSection">
+      <h1>We're Building Your Future</h1>
+      <p>Take a step towards the future of construction with Cobuild</p>
+      <button>GET A QUOTE</button>
+    </section>
+  </div>
+
+  <section id="MiddleSection">
+    <div id="UpperDiv">
+      <h1>Our Services</h1>
+      <pre>Lorem ipsum dolor, sit aet consectetur elit
+      Similique facere eos alias modi ea et amet, 
+      ullam commodi!</pre>
+    </div>
+    <div id="LowerDiv">
+      <div class="sec">
+        <img src="photoes/excavator.png" width="50px">
+        <h3>Fast Operations</h3>
+        <p>Cobuild impresses you with fully responsiveness and highly customization.</p>
+      </div>
+      <div class="sec">
+        <img src="photoes/crane.png" width="50px">
+        <h3>Renovation</h3>
+        <p>Cobuild impresses you with fully responsiveness and highly customization.</p>
+      </div>
+      <div class="sec">
+        <img src="photoes/helmet.png" width="50px">
+        <h3>Consultation</h3>
+        <p>Cobuild impresses you with fully responsiveness and highly customization.</p>
+      </div>
+      <div class="sec">
+        <img src="photoes/hotel.png" width="50px">
+        <h3>Architecture</h3>
+        <p>Cobuild impresses you with fully responsiveness and highly customization.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="LowerSection">
+    <div id="About">
+      <h1>Featured Work</h1>
+      <pre>     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    perspiciatis laboriosam, atque voluptatum corporis molestias?</pre>
+      <h3>All / Building / Construction / Planning</h3>
+    </div>
+
+    <div id="Gallery">
+      <div class="pic" id="img1">
+        <div class="overlay">
+          <div class="text">Builder</div>
+        </div>
+      </div>
+
+      <div class="pic" id="img2">
+        <div class="overlay">
+          <div class="text">Renovation</div>
+        </div>
+      </div>
+
+      <div class="pic" id="img3">
+        <div class="overlay">
+          <div class="text">Building Process</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let header = document.getElementById('MainHeader');
+      let contact = document.getElementById('contac');
+      var sticky = header.offsetTop;
+      {
+        if (scrollY >= 50) {
+          header.style.background = 'white'
+        } else if (scrollY < 50) {
+          header.style.background = '0000008f'
+        }
+      }
+    </script>
+    <script src="jQuery.js"></script>
+    <script src="index.js"></script>
+</body>
+</div>
